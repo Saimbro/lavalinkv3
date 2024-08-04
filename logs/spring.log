@@ -1,0 +1,594 @@
+2024-07-17 11:31:42.704  INFO 28 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 21.0.3 on f52122e2-0e54-4831-a956-b22c446ed4dd with PID 28 (/home/container/Lavalink.jar started by ? in /home/container)
+2024-07-17 11:31:42.825  INFO 28 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17 11:32:08.287  INFO 28 --- [main] lavalink.server.Launcher                 : Started Launcher in 38.826 seconds (JVM running for 51.726)
+2024-07-17 11:32:08.410  INFO 28 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/lavalink-devs/Lavalink/issues/295
+2024-07-17 11:32:09.394  INFO 28 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.7.11
+	Build time:     10.03.2024 17:31:45 UTC
+	Branch          HEAD
+	Commit:         0aa718c
+	Commit time:    10.03.2024 17:17:40 UTC
+	JVM:            21.0.3
+	Lavaplayer      1.5.3
+
+2024-07-17 11:32:09.524  INFO 28 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17 11:32:26.765  WARN 28 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-07-17 11:32:27.370  INFO 28 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-07-17 11:32:27.386  INFO 28 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 17666 ms
+2024-07-17 11:32:31.476  INFO 28 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2024-07-17 11:32:46.806  INFO 28 --- [main] lavalink.server.config.KoeConfiguration  : OS: LINUX, Arch: X86_64
+2024-07-17 11:32:46.807  INFO 28 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2024-07-17 11:32:46.922  INFO 28 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2024-07-17 11:32:46.997  INFO 28 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2024-07-17 11:32:47.653  WARN 28 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2024-07-17 11:32:54.792  INFO 28 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
+2024-07-17 11:32:54.874  INFO 28 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
+2024-07-17 11:32:55.042  INFO 28 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
+2024-07-17 11:32:57.430  INFO 28 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2024-07-17 11:32:58.365  INFO 28 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 20881 (http)
+2024-07-17 11:32:58.402  INFO 28 --- [main] lavalink.server.Launcher                 : Started Launcher in 49.873 seconds (JVM running for 101.841)
+2024-07-17 11:32:58.418  INFO 28 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2024-07-17 11:35:33.163  INFO 28 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-17 11:35:33.166  INFO 28 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-17 11:35:33.250  INFO 28 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 79 ms
+2024-07-17 11:35:33.799  INFO 28 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /95.216.39.179:37882
+2024-07-17 11:35:34.169  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=95.216.39.179
+2024-07-17 11:35:41.134  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Poru
+2024-07-17 11:36:31.478  WARN 28 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 4] [Bucket 20 = 1] [Bucket 50 = 2] [Bucket 200 = 0] [Bucket 500 = 1] [Bucket 2000 = 0] 
+2024-07-17 11:36:57.742  INFO 28 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:summertime"
+2024-07-17 11:36:57.710  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1261732910470402080","sessionId":"8f5361a4853e7fa49e6de67088922b3a","event":{"token":"7fbeae616b514c47","guild_id":"1261732910470402080","endpoint":"india10039.discord.media:443"}}
+2024-07-17 11:36:57.825  WARN 28 --- [XNIO-1 I/O-2] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
+2024-07-17 11:37:04.436  INFO 28 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: summertime
+2024-07-17 11:37:06.952  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Asummertime, client=95.216.39.179
+2024-07-17 11:37:07.609  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1261732910470402080","track":"QAAAngIAOExhbmEgRGVsIFJleSAtIFN1bW1lcnRpbWUgU2FkbmVzcyAoT2ZmaWNpYWwgTXVzaWMgVmlkZW8pAAxMYW5hIERlbCBSZXkAAAAAAAQPEAALVGRyTDNReGp5VncAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1UZHJMM1F4anlWdwAHeW91dHViZQAAAAAAAAAA","noReplace":true}
+2024-07-17 11:37:07.896  WARN 28 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : YouTube auth tokens can't be retrieved because email and password is not set in YoutubeAudioSourceManager, age restricted videos will throw exceptions.
+2024-07-17 11:37:11.255 ERROR 28 --- [lava-daemon-pool-playback-1-thread-1] .s.d.l.s.y.YoutubeSignatureCipherManager : Problematic YouTube player script /s/player/65e3708e/player_ias.vflset/de_DE/base.js detected (issue detected with script: no n function match). Dumped to /tmp/lavaplayer-yt-player-script483780307358295791.js
+2024-07-17 11:37:11.288  INFO 28 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is null).
+2024-07-17 11:37:11.778  INFO 28 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is Cgs2TDN1dm1Yd0Nodyi3hd60BjIKCgJERRIEEgAgMToMCAEgxse4i_LW4Mtm, next update will be after 600 seconds.
+2024-07-17 11:37:12.114  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"1261732910470402080","pause":true}
+2024-07-17 11:37:12.152  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"1261732910470402080"}
+2024-07-17 11:37:12.418  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"1261732910470402080"}
+2024-07-17 11:38:31.478  WARN 28 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 0] [Bucket 20 = 2] [Bucket 50 = 7] [Bucket 200 = 0] [Bucket 500 = 1] [Bucket 2000 = 0] 
+2024-07-17 11:39:07.071  INFO 28 --- [SpringApplicationShutdownHook] io.undertow                              : stopping server: Undertow - 2.2.16.Final
+2024-07-17 11:39:07.081 ERROR 28 --- [XNIO-1 I/O-2] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1081) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:994) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:204) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:193) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:198) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:152) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:108) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:507) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+
+2024-07-17 11:39:07.096  INFO 28 --- [SpringApplicationShutdownHook] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-07-17 11:39:07.151  INFO 28 --- [SpringApplicationShutdownHook] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2024-07-17 11:40:41.615  INFO 28 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 21.0.3 on f52122e2-0e54-4831-a956-b22c446ed4dd with PID 28 (/home/container/Lavalink.jar started by ? in /home/container)
+2024-07-17 11:40:41.842  INFO 28 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17 11:41:09.863  INFO 28 --- [main] lavalink.server.Launcher                 : Started Launcher in 42.059 seconds (JVM running for 55.16)
+2024-07-17 11:41:09.876  INFO 28 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/lavalink-devs/Lavalink/issues/295
+2024-07-17 11:41:10.861  INFO 28 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.7.11
+	Build time:     10.03.2024 17:31:45 UTC
+	Branch          HEAD
+	Commit:         0aa718c
+	Commit time:    10.03.2024 17:17:40 UTC
+	JVM:            21.0.3
+	Lavaplayer      1.5.3
+
+2024-07-17 11:41:11.073  INFO 28 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17 11:41:30.452  WARN 28 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-07-17 11:41:30.748  INFO 28 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-07-17 11:41:30.749  INFO 28 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 19482 ms
+2024-07-17 11:41:34.110  INFO 28 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2024-07-17 11:41:48.228  INFO 28 --- [main] lavalink.server.config.KoeConfiguration  : OS: LINUX, Arch: X86_64
+2024-07-17 11:41:48.253  INFO 28 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2024-07-17 11:41:48.365  INFO 28 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2024-07-17 11:41:48.415  INFO 28 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2024-07-17 11:41:48.924  WARN 28 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2024-07-17 11:41:54.574  INFO 28 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
+2024-07-17 11:41:54.745  INFO 28 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
+2024-07-17 11:41:54.949  INFO 28 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
+2024-07-17 11:41:57.949  INFO 28 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2024-07-17 11:41:58.906  INFO 28 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 20881 (http)
+2024-07-17 11:41:59.017  INFO 28 --- [main] lavalink.server.Launcher                 : Started Launcher in 49.122 seconds (JVM running for 104.313)
+2024-07-17 11:41:59.027  INFO 28 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2024-07-17 11:42:33.207  INFO 28 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-17 11:42:33.207  INFO 28 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-17 11:42:33.210  INFO 28 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-07-17 11:42:33.545  INFO 28 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /95.216.39.179:33324
+2024-07-17 11:42:33.830  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=95.216.39.179
+2024-07-17 11:42:41.503  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Poru
+2024-07-17 11:43:08.390  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /95.216.39.179:33324 -- CloseStatus[code=1006, reason=]
+2024-07-17 11:43:08.391  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-07-17 11:43:34.110  WARN 28 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 5] [Bucket 20 = 10] [Bucket 50 = 10] [Bucket 200 = 0] [Bucket 500 = 1] [Bucket 2000 = 0] 
+2024-07-17 11:43:37.851  INFO 28 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /95.216.39.179:52478
+2024-07-17 11:43:37.866  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=95.216.39.179
+2024-07-17 11:43:37.895  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Poru
+2024-07-17 11:45:14.207  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /95.216.39.179:52478 -- CloseStatus[code=1006, reason=]
+2024-07-17 11:45:14.207  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-07-17 11:45:44.934  INFO 28 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /95.216.39.179:46588
+2024-07-17 11:45:44.939  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=95.216.39.179
+2024-07-17 11:45:44.998  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Poru
+2024-07-17 11:45:45.042  INFO 28 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /95.216.39.179:46598
+2024-07-17 11:45:45.073  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=95.216.39.179
+2024-07-17 11:45:45.092  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Poru
+2024-07-17 11:46:34.212  INFO 28 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "scsearch:Lana Del Rey - Summertime Sadness (Official Music Video)"
+2024-07-17 11:46:34.395  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1261732910470402080","sessionId":"66e942ce5fd287e952402974ae435297","event":{"token":"29d31a3b46993c57","guild_id":"1261732910470402080","endpoint":"india10003.discord.media:443"}}
+2024-07-17 11:46:34.397  WARN 28 --- [XNIO-1 I/O-1] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
+2024-07-17 11:46:34.386  INFO 28 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.s.SoundCloudClientIdTracker    : Updating SoundCloud client ID (current is null).
+2024-07-17 11:46:39.318  INFO 28 --- [lava-daemon-pool-info-loader-2-thread-1] c.s.d.l.s.s.SoundCloudClientIdTracker    : Updating SoundCloud client ID succeeded, new ID is wDSKS1Bp8WmdlRPkZ7NQXGs67PMXl2Nd.
+2024-07-17 11:46:40.953  INFO 28 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Lana Del Rey - Summertime Sadness (Official Music Video)
+2024-07-17 11:46:44.351  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=scsearch%3ALana%20Del%20Rey%20-%20Summertime%20Sadness%20(Official%20Music%20Video), client=95.216.39.179
+2024-07-17 11:46:44.745  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1261732910470402080","track":"QAABAwIAIUxhbmEgRGVsIFJleSAtIFN1bW1lcnRpbWUgU2FkbmVzcwASSW50ZXJzY29wZSBSZWNvcmRzAAAAAAABYbQAcE86aHR0cHM6Ly9hcGktdjIuc291bmRjbG91ZC5jb20vbWVkaWEvc291bmRjbG91ZDp0cmFja3M6MzUwOTIwMzUvYWE2MTlhYWUtZmRiYS00NTI1LTlmYjYtNDI1NDMzZTQ2MDQyL3N0cmVhbS9obHMAAQA5aHR0cHM6Ly9zb3VuZGNsb3VkLmNvbS9pbnRlcnNjb3BlL2xhbmEtZGVsLXJleS1zdW1tZXJ0aW1lAApzb3VuZGNsb3VkAAAAAAAAAAA=","noReplace":true}
+2024-07-17 11:47:33.419  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"1261732910470402080","pause":true}
+2024-07-17 11:47:33.424  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"1261732910470402080"}
+2024-07-17 11:47:34.112  WARN 28 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 0] [Bucket 20 = 3] [Bucket 50 = 5] [Bucket 200 = 0] [Bucket 500 = 1] [Bucket 2000 = 0] 
+2024-07-17 11:47:50.038  INFO 28 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "scsearch:brodyaga phonk"
+2024-07-17 11:47:50.404  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1261732910470402080","sessionId":"66e942ce5fd287e952402974ae435297","event":{"token":"a6818f6f01c4b7a7","guild_id":"1261732910470402080","endpoint":"india10007.discord.media:443"}}
+2024-07-17 11:47:50.411  INFO 28 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: brodyaga phonk
+2024-07-17 11:47:50.650  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=scsearch%3Abrodyaga%20phonk, client=95.216.39.179
+2024-07-17 11:47:50.931  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1261732910470402080","track":"QAABGwIAKkJyb2R5YWdhIEZ1bmsgWCBMb3N0IFNvdWwgfCBQaG9uayBNYXNodXAgfAAFVDF4Y3IAAAAAAAL90QByTzpodHRwczovL2FwaS12Mi5zb3VuZGNsb3VkLmNvbS9tZWRpYS9zb3VuZGNsb3VkOnRyYWNrczoxNzU3NjUwNzQ5LzU0OWFhN2RmLTZiNGQtNGIyNy1iOTVkLWE2ZmViYjliMmE4MS9zdHJlYW0vaGxzAAEAU2h0dHBzOi8vc291bmRjbG91ZC5jb20vZGF3aWQtZGF3aWQtNzU4MDg4NjQ5L2Jyb2R5YWdhLWZ1bmsteC1sb3N0LXNvdWwtcGhvbmstbWFzaHVwAApzb3VuZGNsb3VkAAAAAAAAAAA=","noReplace":true}
+2024-07-17 11:48:20.200  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"1261732910470402080","pause":true}
+2024-07-17 11:48:20.201  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"1261732910470402080"}
+2024-07-17 11:51:27.294  INFO 28 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "scsearch:brodyaga phonk slowed"
+2024-07-17 11:51:27.597  INFO 28 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: brodyaga phonk slowed
+2024-07-17 11:51:27.647  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1261732910470402080","sessionId":"66e942ce5fd287e952402974ae435297","event":{"token":"22e3981959310f2c","guild_id":"1261732910470402080","endpoint":"india10007.discord.media:443"}}
+2024-07-17 11:51:27.726  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=scsearch%3Abrodyaga%20phonk%20slowed, client=95.216.39.179
+2024-07-17 11:51:28.041  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1261732910470402080","track":"QAABBwIAIkV0ZXJueGxreiAtIEJST0RZQUdBIEZVTksgKHNsb3dlZCkAB0Jlbml0ZXoAAAAAAAKA6wByTzpodHRwczovL2FwaS12Mi5zb3VuZGNsb3VkLmNvbS9tZWRpYS9zb3VuZGNsb3VkOnRyYWNrczoxNjYwODU4ODY2LzQ2NGNkN2I3LWI3NDItNDlhYi1hZDdjLTRlMDRjZDZhM2QzMS9zdHJlYW0vaGxzAAEARWh0dHBzOi8vc291bmRjbG91ZC5jb20vYWxtYXQtYW1pcnhhbm92L2V0ZXJueGxrei1icm9keWFnYS1mdW5rLXNsb3dlZAAKc291bmRjbG91ZAAAAAAAAAAA","noReplace":true}
+2024-07-17 11:52:21.055  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"filters","guildId":"1261732910470402080","equalizer":[],"karaoke":null,"timescale":{"rate":1.5},"tremolo":null,"vibrato":null,"rotation":null,"distortion":null,"channelMix":null,"lowPass":null}
+2024-07-17 11:52:25.458  INFO 28 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda/0x00007fa7d4763190@1067f382
+2024-07-17 11:52:25.460  INFO 28 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2024-07-17 11:52:26.349  INFO 28 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2024-07-17 11:52:26.671  INFO 28 --- [lava-daemon-pool-playback-1-thread-1] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: loading with parts [Part{feature=X86.avx2, part=avx2}]
+2024-07-17 11:52:26.933  INFO 28 --- [lava-daemon-pool-playback-1-thread-1] c.g.n.nativeloader.NativeLibLoader       : Native library detector: loading with parts []
+2024-07-17 11:52:27.097  INFO 28 --- [lava-daemon-pool-playback-1-thread-1] c.g.n.nativeloader.NativeLibLoader       : Native library detector: successfully loaded.
+2024-07-17 11:52:27.205  INFO 28 --- [lava-daemon-pool-playback-1-thread-1] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: successfully loaded.
+2024-07-17 11:53:03.384  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"filters","guildId":"1261732910470402080","equalizer":[],"karaoke":null,"timescale":{"rate":1.5},"tremolo":null,"vibrato":null,"rotation":{"rotationHz":0.2},"distortion":null,"channelMix":null,"lowPass":null}
+2024-07-17 11:53:34.112  WARN 28 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 0] [Bucket 20 = 0] [Bucket 50 = 1] [Bucket 200 = 0] [Bucket 500 = 1] [Bucket 2000 = 0] 
+2024-07-17 11:53:40.965  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"1261732910470402080","pause":true}
+2024-07-17 11:53:40.971  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"1261732910470402080"}
+2024-07-17 12:12:05.210  INFO 28 --- [SpringApplicationShutdownHook] io.undertow                              : stopping server: Undertow - 2.2.16.Final
+2024-07-17 12:12:05.244 ERROR 28 --- [XNIO-1 I/O-1] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1081) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:994) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:204) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:193) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:198) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:152) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:108) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:507) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+
+2024-07-17 12:12:05.363 ERROR 28 --- [XNIO-1 I/O-1] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1081) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:994) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:204) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:193) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:198) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:152) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:108) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:507) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+
+2024-07-17 12:12:05.366  INFO 28 --- [SpringApplicationShutdownHook] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-07-17 12:12:05.421  INFO 28 --- [SpringApplicationShutdownHook] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2024-07-17 12:13:06.325  INFO 28 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 21.0.3 on f52122e2-0e54-4831-a956-b22c446ed4dd with PID 28 (/home/container/Lavalink.jar started by ? in /home/container)
+2024-07-17 12:13:06.472  INFO 28 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17 12:13:33.949  INFO 28 --- [main] lavalink.server.bootstrap.PluginManager  : Downloading https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+2024-07-17 12:13:47.021  WARN 28 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pluginManager': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [lavalink.server.bootstrap.PluginManager$$EnhancerBySpringCGLIB$$b21d583b]: Constructor threw exception; nested exception is java.io.FileNotFoundException: https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+2024-07-17 12:13:47.213  INFO 28 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-17 12:13:49.278 ERROR 28 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pluginManager': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [lavalink.server.bootstrap.PluginManager$$EnhancerBySpringCGLIB$$b21d583b]: Constructor threw exception; nested exception is java.io.FileNotFoundException: https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar!/:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar!/:5.3.18]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar!/:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar!/:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar!/:2.6.6]
+	at lavalink.server.Launcher.launchPluginBootstrap(Launcher.kt:133) ~[classes!/:na]
+	at lavalink.server.Launcher.main(Launcher.kt:125) ~[classes!/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:88) ~[Lavalink.jar:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [lavalink.server.bootstrap.PluginManager$$EnhancerBySpringCGLIB$$b21d583b]: Constructor threw exception; nested exception is java.io.FileNotFoundException: https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	... 23 common frames omitted
+Caused by: java.io.FileNotFoundException: https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[na:na]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[na:na]
+	at java.base/java.net.URL.openStream(URL.java:1325) ~[na:na]
+	at lavalink.server.bootstrap.PluginManager.downloadJar(PluginManager.kt:80) ~[classes!/:na]
+	at lavalink.server.bootstrap.PluginManager.manageDownloads(PluginManager.kt:74) ~[classes!/:na]
+	at lavalink.server.bootstrap.PluginManager.<init>(PluginManager.kt:26) ~[classes!/:na]
+	at lavalink.server.bootstrap.PluginManager$$EnhancerBySpringCGLIB$$b21d583b.<init>(<generated>) ~[classes!/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	... 25 common frames omitted
+
+2024-07-17 12:14:39.619  INFO 27 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 21.0.3 on f52122e2-0e54-4831-a956-b22c446ed4dd with PID 27 (/home/container/Lavalink.jar started by ? in /home/container)
+2024-07-17 12:14:39.787  INFO 27 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17 12:15:04.198  INFO 27 --- [main] lavalink.server.bootstrap.PluginManager  : Downloading https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+2024-07-17 12:15:14.067  WARN 27 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pluginManager': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [lavalink.server.bootstrap.PluginManager$$EnhancerBySpringCGLIB$$b21d583b]: Constructor threw exception; nested exception is java.io.FileNotFoundException: https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+2024-07-17 12:15:14.336  INFO 27 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-17 12:15:15.402 ERROR 27 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pluginManager': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [lavalink.server.bootstrap.PluginManager$$EnhancerBySpringCGLIB$$b21d583b]: Constructor threw exception; nested exception is java.io.FileNotFoundException: https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar!/:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar!/:5.3.18]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar!/:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar!/:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar!/:2.6.6]
+	at lavalink.server.Launcher.launchPluginBootstrap(Launcher.kt:133) ~[classes!/:na]
+	at lavalink.server.Launcher.main(Launcher.kt:125) ~[classes!/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:88) ~[Lavalink.jar:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [lavalink.server.bootstrap.PluginManager$$EnhancerBySpringCGLIB$$b21d583b]: Constructor threw exception; nested exception is java.io.FileNotFoundException: https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	... 23 common frames omitted
+Caused by: java.io.FileNotFoundException: https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[na:na]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[na:na]
+	at java.base/java.net.URL.openStream(URL.java:1325) ~[na:na]
+	at lavalink.server.bootstrap.PluginManager.downloadJar(PluginManager.kt:80) ~[classes!/:na]
+	at lavalink.server.bootstrap.PluginManager.manageDownloads(PluginManager.kt:74) ~[classes!/:na]
+	at lavalink.server.bootstrap.PluginManager.<init>(PluginManager.kt:26) ~[classes!/:na]
+	at lavalink.server.bootstrap.PluginManager$$EnhancerBySpringCGLIB$$b21d583b.<init>(<generated>) ~[classes!/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	... 25 common frames omitted
+
+2024-07-17 12:16:31.834  INFO 27 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 21.0.3 on f52122e2-0e54-4831-a956-b22c446ed4dd with PID 27 (/home/container/Lavalink.jar started by ? in /home/container)
+2024-07-17 12:16:32.193  INFO 27 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17 12:16:55.521  INFO 27 --- [main] lavalink.server.bootstrap.PluginManager  : Deleted ./plugins/youtube-plugin-1.4.0.jar
+2024-07-17 12:16:55.758  INFO 27 --- [main] lavalink.server.bootstrap.PluginManager  : Downloading https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+2024-07-17 12:17:07.926  WARN 27 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pluginManager': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [lavalink.server.bootstrap.PluginManager$$EnhancerBySpringCGLIB$$b21d583b]: Constructor threw exception; nested exception is java.io.FileNotFoundException: https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+2024-07-17 12:17:08.343  INFO 27 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-07-17 12:17:09.066 ERROR 27 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pluginManager': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [lavalink.server.bootstrap.PluginManager$$EnhancerBySpringCGLIB$$b21d583b]: Constructor threw exception; nested exception is java.io.FileNotFoundException: https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar!/:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar!/:5.3.18]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar!/:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar!/:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar!/:2.6.6]
+	at lavalink.server.Launcher.launchPluginBootstrap(Launcher.kt:133) ~[classes!/:na]
+	at lavalink.server.Launcher.main(Launcher.kt:125) ~[classes!/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:108) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[Lavalink.jar:na]
+	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:88) ~[Lavalink.jar:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [lavalink.server.bootstrap.PluginManager$$EnhancerBySpringCGLIB$$b21d583b]: Constructor threw exception; nested exception is java.io.FileNotFoundException: https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	... 23 common frames omitted
+Caused by: java.io.FileNotFoundException: https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/VERSION/youtube-plugin-VERSION.jar
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1994) ~[na:na]
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1599) ~[na:na]
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:223) ~[na:na]
+	at java.base/java.net.URL.openStream(URL.java:1325) ~[na:na]
+	at lavalink.server.bootstrap.PluginManager.downloadJar(PluginManager.kt:80) ~[classes!/:na]
+	at lavalink.server.bootstrap.PluginManager.manageDownloads(PluginManager.kt:74) ~[classes!/:na]
+	at lavalink.server.bootstrap.PluginManager.<init>(PluginManager.kt:26) ~[classes!/:na]
+	at lavalink.server.bootstrap.PluginManager$$EnhancerBySpringCGLIB$$b21d583b.<init>(<generated>) ~[classes!/:na]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.18.jar!/:5.3.18]
+	... 25 common frames omitted
+
+2024-07-17 12:19:16.616  INFO 27 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 21.0.3 on f52122e2-0e54-4831-a956-b22c446ed4dd with PID 27 (/home/container/Lavalink.jar started by ? in /home/container)
+2024-07-17 12:19:16.783  INFO 27 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17 12:19:42.206  INFO 27 --- [main] lavalink.server.bootstrap.PluginManager  : Downloading https://maven.lavalink.dev/releases/dev/lavalink/youtube/youtube-plugin/1.4.0/youtube-plugin-1.4.0.jar
+2024-07-17 12:19:54.371  INFO 27 --- [main] lavalink.server.bootstrap.PluginManager  : Found plugin 'youtube-plugin' version 1.4.0
+2024-07-17 12:19:54.808  INFO 27 --- [main] lavalink.server.bootstrap.PluginManager  : Loaded youtube-plugin-1.4.0.jar (10 classes)
+2024-07-17 12:20:03.965  INFO 27 --- [main] lavalink.server.Launcher                 : Started Launcher in 66.064 seconds (JVM running for 83.397)
+2024-07-17 12:20:04.028  INFO 27 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/lavalink-devs/Lavalink/issues/295
+2024-07-17 12:20:05.760  INFO 27 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.7.11
+	Build time:     10.03.2024 17:31:45 UTC
+	Branch          HEAD
+	Commit:         0aa718c
+	Commit time:    10.03.2024 17:17:40 UTC
+	JVM:            21.0.3
+	Lavaplayer      1.5.3
+
+2024-07-17 12:20:05.868  INFO 27 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17 12:20:27.346  WARN 27 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-07-17 12:20:27.935  INFO 27 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-07-17 12:20:27.937  INFO 27 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 21935 ms
+2024-07-17 12:20:31.881  INFO 27 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2024-07-17 12:20:37.183  WARN 27 --- [main] d.l.youtube.plugin.YoutubePluginLoader   : youtubeConfig missing or 'clients' was not specified, default values will be used.
+2024-07-17 12:20:38.074  INFO 27 --- [main] d.l.youtube.plugin.YoutubePluginLoader   : YouTube source initialised with clients: WEB_REMIX, WEB, ANDROID, TVHTML5_SIMPLY_EMBEDDED_PLAYER 
+2024-07-17 12:20:43.262  INFO 27 --- [main] lavalink.server.config.KoeConfiguration  : OS: LINUX, Arch: X86_64
+2024-07-17 12:20:43.280  INFO 27 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2024-07-17 12:20:43.471  INFO 27 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2024-07-17 12:20:43.583  INFO 27 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2024-07-17 12:20:44.043  WARN 27 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2024-07-17 12:20:50.875  INFO 27 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
+2024-07-17 12:20:51.091  INFO 27 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
+2024-07-17 12:20:51.281  INFO 27 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
+2024-07-17 12:20:54.393  INFO 27 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2024-07-17 12:20:55.285  INFO 27 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 20881 (http)
+2024-07-17 12:20:55.395  INFO 27 --- [main] lavalink.server.Launcher                 : Started Launcher in 51.241 seconds (JVM running for 134.827)
+2024-07-17 12:20:55.446  INFO 27 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2024-07-17 12:22:23.170  INFO 27 --- [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-17 12:22:23.172  INFO 27 --- [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-17 12:22:23.174  INFO 27 --- [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-17 12:22:23.371  INFO 27 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /95.216.39.179:42146
+2024-07-17 12:22:23.428  INFO 27 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /95.216.39.179:42136
+2024-07-17 12:22:23.704  INFO 27 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=95.216.39.179
+2024-07-17 12:22:23.715  INFO 27 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=95.216.39.179
+2024-07-17 12:22:31.507  INFO 27 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Poru
+2024-07-17 12:22:31.643  INFO 27 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Poru
+2024-07-17 12:22:31.882  WARN 27 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 7] [Bucket 20 = 8] [Bucket 50 = 9] [Bucket 200 = 0] [Bucket 500 = 1] [Bucket 2000 = 0] 
+2024-07-17 12:22:49.072  INFO 27 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1261732910470402080","sessionId":"04bf089d18ba82a85ffa34934500380b","event":{"token":"f67f26ffc62f961d","guild_id":"1261732910470402080","endpoint":"india10007.discord.media:443"}}
+2024-07-17 12:22:49.073  WARN 27 --- [XNIO-1 I/O-1] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
+2024-07-17 12:22:49.205  INFO 27 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:summertime"
+2024-07-17 12:22:56.386  INFO 27 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: summertime
+2024-07-17 12:22:58.376  INFO 27 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Asummertime, client=95.216.39.179
+2024-07-17 12:22:58.769  INFO 27 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1261732910470402080","track":"QAAAngIAOExhbmEgRGVsIFJleSAtIFN1bW1lcnRpbWUgU2FkbmVzcyAoT2ZmaWNpYWwgTXVzaWMgVmlkZW8pAAxMYW5hIERlbCBSZXkAAAAAAAQPEAALVGRyTDNReGp5VncAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1UZHJMM1F4anlWdwAHeW91dHViZQAAAAAAAAAA","noReplace":true}
+2024-07-17 12:23:08.827  WARN 27 --- [epollEventLoopGroup-2-1] lavalink.server.player.EventEmitter      : Lana Del Rey - Summertime Sadness (Official Music Video) got stuck! Threshold surpassed: 10000ms
+2024-07-17 12:23:08.958  INFO 27 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"1261732910470402080","pause":true}
+2024-07-17 12:23:08.960  INFO 27 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"1261732910470402080"}
+2024-07-17 12:23:09.215  INFO 27 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"1261732910470402080"}
+2024-07-17 12:24:04.687  INFO 27 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:saim"
+2024-07-17 12:24:05.011  INFO 27 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1261732910470402080","sessionId":"04bf089d18ba82a85ffa34934500380b","event":{"token":"8c07319de97b546c","guild_id":"1261732910470402080","endpoint":"india10007.discord.media:443"}}
+2024-07-17 12:24:05.614  INFO 27 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: saim
+2024-07-17 12:24:05.758  INFO 27 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Asaim, client=95.216.39.179
+2024-07-17 12:24:06.047  INFO 27 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1261732910470402080","track":"QAAAiQIAJVNBSU0geCBDQU4gLSBUYXR0b29zIChPZmZpY2lhbCBWaWRlbykAClNBSU0geCBDQU4AAAAAAAIi4AALYUtQd0N6VU5vck0AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1hS1B3Q3pVTm9yTQAHeW91dHViZQAAAAAAAAAA","noReplace":true}
+2024-07-17 12:24:27.958  INFO 27 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"1261732910470402080","pause":true}
+2024-07-17 12:24:27.959  INFO 27 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"1261732910470402080"}
+2024-07-17 12:24:31.884  WARN 27 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 1] [Bucket 20 = 3] [Bucket 50 = 8] [Bucket 200 = 0] [Bucket 500 = 1] [Bucket 2000 = 0] 
+2024-07-17 12:24:57.985  INFO 27 --- [SpringApplicationShutdownHook] io.undertow                              : stopping server: Undertow - 2.2.16.Final
+2024-07-17 12:24:58.090 ERROR 27 --- [XNIO-1 I/O-2] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1081) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:994) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:204) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:193) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:198) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:152) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:108) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:507) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+
+2024-07-17 12:24:58.075 ERROR 27 --- [XNIO-1 I/O-1] org.xnio.listener                        : XNIO001007: A channel event listener threw an exception
+
+java.util.concurrent.RejectedExecutionException: XNIO007007: Thread is terminating
+	at org.xnio.nio.WorkerThread.execute(WorkerThread.java:620) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:396) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.websockets.jsr.UndertowSession$3.handleEvent(UndertowSession.java:388) ~[undertow-websockets-jsr-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:1081) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at io.undertow.server.protocol.framed.AbstractFramedChannel$FrameCloseListener.handleEvent(AbstractFramedChannel.java:994) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.ChannelListeners.invokeChannelListener(ChannelListeners.java:92) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.terminated(WriteReadyHandler.java:70) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.writeTerminated(NioSocketConduit.java:204) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.terminateWrites(NioSocketConduit.java:193) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.truncateWrites(NioSocketConduit.java:198) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at io.undertow.conduits.IdleTimeoutConduit.truncateWrites(IdleTimeoutConduit.java:387) ~[undertow-core-2.2.16.Final.jar!/:2.2.16.Final]
+	at org.xnio.conduits.ConduitStreamSinkChannel.close(ConduitStreamSinkChannel.java:186) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.IoUtils.safeClose(IoUtils.java:152) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.conduits.WriteReadyHandler$ChannelListenerHandler.forceTermination(WriteReadyHandler.java:57) ~[xnio-api-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.NioSocketConduit.forceTermination(NioSocketConduit.java:108) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+	at org.xnio.nio.WorkerThread.run(WorkerThread.java:507) ~[xnio-nio-3.8.6.Final.jar!/:3.8.6.Final]
+
+2024-07-17 12:24:58.115  INFO 27 --- [SpringApplicationShutdownHook] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-07-17 12:24:58.230  INFO 27 --- [SpringApplicationShutdownHook] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring disabled.
+2024-07-17 12:25:49.735  INFO 28 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 21.0.3 on f52122e2-0e54-4831-a956-b22c446ed4dd with PID 28 (/home/container/Lavalink.jar started by ? in /home/container)
+2024-07-17 12:25:49.957  INFO 28 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17 12:26:13.497  INFO 28 --- [main] lavalink.server.bootstrap.PluginManager  : Found plugin 'youtube-plugin' version 1.4.0
+2024-07-17 12:26:14.302  INFO 28 --- [main] lavalink.server.bootstrap.PluginManager  : Loaded youtube-plugin-1.4.0.jar (10 classes)
+2024-07-17 12:26:24.454  INFO 28 --- [main] lavalink.server.Launcher                 : Started Launcher in 49.476 seconds (JVM running for 62.863)
+2024-07-17 12:26:24.631  INFO 28 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/lavalink-devs/Lavalink/issues/295
+2024-07-17 12:26:26.085  INFO 28 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        3.7.11
+	Build time:     10.03.2024 17:31:45 UTC
+	Branch          HEAD
+	Commit:         0aa718c
+	Commit time:    10.03.2024 17:17:40 UTC
+	JVM:            21.0.3
+	Lavaplayer      1.5.3
+
+2024-07-17 12:26:26.268  INFO 28 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2024-07-17 12:26:47.731  WARN 28 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-07-17 12:26:48.080  INFO 28 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-07-17 12:26:48.081  INFO 28 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 21661 ms
+2024-07-17 12:26:53.816  INFO 28 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2024-07-17 12:27:08.104  WARN 28 --- [main] d.l.youtube.plugin.YoutubePluginLoader   : youtubeConfig missing or 'clients' was not specified, default values will be used.
+2024-07-17 12:27:08.806  INFO 28 --- [main] d.l.youtube.plugin.YoutubePluginLoader   : YouTube source initialised with clients: WEB_REMIX, WEB, ANDROID, TVHTML5_SIMPLY_EMBEDDED_PLAYER 
+2024-07-17 12:27:13.535  INFO 28 --- [main] lavalink.server.config.KoeConfiguration  : OS: LINUX, Arch: X86_64
+2024-07-17 12:27:13.651  INFO 28 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2024-07-17 12:27:13.656  INFO 28 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2024-07-17 12:27:13.858  INFO 28 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2024-07-17 12:27:14.117  WARN 28 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2024-07-17 12:27:21.493  INFO 28 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
+2024-07-17 12:27:21.758  INFO 28 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
+2024-07-17 12:27:22.009  INFO 28 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
+2024-07-17 12:27:23.922  INFO 28 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2024-07-17 12:27:24.857  INFO 28 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 20881 (http)
+2024-07-17 12:27:25.040  INFO 28 --- [main] lavalink.server.Launcher                 : Started Launcher in 60.292 seconds (JVM running for 123.449)
+2024-07-17 12:27:25.087  INFO 28 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2024-07-17 12:27:57.507  INFO 28 --- [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-17 12:27:57.516  INFO 28 --- [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-17 12:27:57.519  INFO 28 --- [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-17 12:27:57.791  INFO 28 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /95.216.39.179:51508
+2024-07-17 12:27:57.801  INFO 28 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /95.216.39.179:51516
+2024-07-17 12:27:58.347  INFO 28 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=95.216.39.179
+2024-07-17 12:27:58.364  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=95.216.39.179
+2024-07-17 12:28:05.201  INFO 28 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Poru
+2024-07-17 12:28:05.758  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Poru
+2024-07-17 12:28:21.342  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1261732910470402080","sessionId":"cec3693337ba08cdd2b2b9f2c280fd6f","event":{"token":"49ea3a5e0ea806b7","guild_id":"1261732910470402080","endpoint":"india10007.discord.media:443"}}
+2024-07-17 12:28:21.356  WARN 28 --- [XNIO-1 I/O-1] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
+2024-07-17 12:28:21.498  INFO 28 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:fightback"
+2024-07-17 12:28:29.227  INFO 28 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: fightback
+2024-07-17 12:28:31.201  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Afightback, client=95.216.39.179
+2024-07-17 12:28:31.709  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1261732910470402080","track":"QAAAigIAKk5FRkZFWCAtIEZpZ2h0IEJhY2sgW09mZmljaWFsIFZpZGVvXSBOby4zNwAGTkVGRkVYAAAAAAADAYgAC0NZRFBfOFVUQXVzAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Q1lEUF84VVRBdXMAB3lvdXR1YmUAAAAAAAAAAA==","noReplace":true}
+2024-07-17 12:28:41.832  WARN 28 --- [epollEventLoopGroup-2-1] lavalink.server.player.EventEmitter      : NEFFEX - Fight Back [Official Video] No.37 got stuck! Threshold surpassed: 10000ms
+2024-07-17 12:28:42.157  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"1261732910470402080","pause":true}
+2024-07-17 12:28:42.230  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"1261732910470402080"}
+2024-07-17 12:28:42.722  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"1261732910470402080"}
+2024-07-17 12:28:53.816  WARN 28 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 8] [Bucket 20 = 8] [Bucket 50 = 18] [Bucket 200 = 1] [Bucket 500 = 2] [Bucket 2000 = 0] 
+2024-07-17 12:28:54.302  INFO 28 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:fightback"
+2024-07-17 12:28:54.581  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1261732910470402080","sessionId":"cec3693337ba08cdd2b2b9f2c280fd6f","event":{"token":"8718e2339a62cc32","guild_id":"1261732910470402080","endpoint":"india10007.discord.media:443"}}
+2024-07-17 12:28:55.209  INFO 28 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: fightback
+2024-07-17 12:28:55.546  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Afightback, client=95.216.39.179
+2024-07-17 12:28:56.015  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1261732910470402080","track":"QAAAigIAKk5FRkZFWCAtIEZpZ2h0IEJhY2sgW09mZmljaWFsIFZpZGVvXSBOby4zNwAGTkVGRkVYAAAAAAADAYgAC0NZRFBfOFVUQXVzAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Q1lEUF84VVRBdXMAB3lvdXR1YmUAAAAAAAAAAA==","noReplace":true}
+2024-07-17 12:29:46.291  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"1261732910470402080","pause":true}
+2024-07-17 12:29:46.292  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"1261732910470402080"}
+2024-07-17 12:30:03.350  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /95.216.39.179:51516 -- CloseStatus[code=1006, reason=]
+2024-07-17 12:30:03.352  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /95.216.39.179:51508 -- CloseStatus[code=1006, reason=]
+2024-07-17 12:30:03.359  INFO 28 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-07-17 12:30:03.351  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2024-07-17 12:30:33.045  INFO 28 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /95.216.39.179:40670
+2024-07-17 12:30:33.047  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=95.216.39.179
+2024-07-17 12:30:33.050  INFO 28 --- [XNIO-1 task-2] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /95.216.39.179:40664
+2024-07-17 12:30:33.052  INFO 28 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /, client=95.216.39.179
+2024-07-17 12:30:33.136  INFO 28 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from Poru
+2024-07-17 12:30:33.183  INFO 28 --- [XNIO-1 task-2] lavalink.server.io.SocketServer          : Connection successfully established from Poru
+2024-07-17 12:30:46.809  INFO 28 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:Lana Del Rey - Summertime Sadness (Official Music Video)"
+2024-07-17 12:30:47.151  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1261732910470402080","sessionId":"976211377b38d5d9fd8b14d19773dc3f","event":{"token":"1e30affd10759b32","guild_id":"1261732910470402080","endpoint":"india10007.discord.media:443"}}
+2024-07-17 12:30:47.152  WARN 28 --- [XNIO-1 I/O-2] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
+2024-07-17 12:30:47.955  INFO 28 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: Lana Del Rey - Summertime Sadness (Official Music Video)
+2024-07-17 12:30:48.247  INFO 28 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytmsearch%3ALana%20Del%20Rey%20-%20Summertime%20Sadness%20(Official%20Music%20Video), client=95.216.39.179
+2024-07-17 12:30:48.676  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1261732910470402080","track":"QAAAeAIAElN1bW1lcnRpbWUgU2FkbmVzcwAMTGFuYSBEZWwgUmV5AAAAAAAECygAC2ZSUWdfOXVsR3VJAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ZlJRZ185dWxHdUkAB3lvdXR1YmUAAAAAAAAAAA==","noReplace":true}
+2024-07-17 12:31:00.217  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"1261732910470402080","pause":true}
+2024-07-17 12:31:00.218  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"1261732910470402080"}
+2024-07-17 12:31:21.735  INFO 28 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytmsearch:surah fatiha"
+2024-07-17 12:31:22.084  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"voiceUpdate","guildId":"1261732910470402080","sessionId":"976211377b38d5d9fd8b14d19773dc3f","event":{"token":"9ffe06ad7c299ce4","guild_id":"1261732910470402080","endpoint":"india10007.discord.media:443"}}
+2024-07-17 12:31:22.241  INFO 28 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search music results for: surah fatiha
+2024-07-17 12:31:22.298  INFO 28 --- [XNIO-1 task-2] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytmsearch%3Asurah%20fatiha, client=95.216.39.179
+2024-07-17 12:31:22.741  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"1261732910470402080","track":"QAAAdwIACUFsIFJhaG1hbgAUQWJkZWwgUmFobWFuIGVsIE91c2kAAAAAAArJuAALT2FpT2YwLWtJU00AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1PYWlPZjAta0lTTQAHeW91dHViZQAAAAAAAAAA","noReplace":true}
+2024-07-17 12:32:36.119  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"1261732910470402080","pause":true}
+2024-07-17 12:32:36.121  INFO 28 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"1261732910470402080"}
